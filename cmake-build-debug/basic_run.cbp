@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="basic_run"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/dylan/item/carpo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="basic_run">
+				<Option output="/Users/dylan/item/carpo/build/macosx/arm64/release/basic_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dylan/item/carpo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/dylan/item/carpo/src"/>
+					<Add directory="/opt/homebrew/Cellar/zlib/1.2.12/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 basic_run"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="basic_run/fast">
+				<Option output="/Users/dylan/item/carpo/build/macosx/arm64/release/basic_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dylan/item/carpo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/dylan/item/carpo/src"/>
+					<Add directory="/opt/homebrew/Cellar/zlib/1.2.12/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 basic_run/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="carpo">
+				<Option output="/Users/dylan/item/carpo/build/macosx/arm64/release/libcarpo.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dylan/item/carpo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/dylan/item/carpo/src"/>
+					<Add directory="/Users/dylan/.xmake/packages/a/asio/1.21.0/8cf1d852d3b64372a96f26bc47667497/include"/>
+					<Add directory="/opt/homebrew/Cellar/zlib/1.2.12/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 carpo"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="carpo/fast">
+				<Option output="/Users/dylan/item/carpo/build/macosx/arm64/release/libcarpo.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dylan/item/carpo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/dylan/item/carpo/src"/>
+					<Add directory="/Users/dylan/.xmake/packages/a/asio/1.21.0/8cf1d852d3b64372a96f26bc47667497/include"/>
+					<Add directory="/opt/homebrew/Cellar/zlib/1.2.12/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 carpo/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server_sample">
+				<Option output="/Users/dylan/item/carpo/build/macosx/arm64/release/server_sample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dylan/item/carpo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/dylan/item/carpo/src"/>
+					<Add directory="/Users/dylan/.xmake/packages/a/asio/1.21.0/8cf1d852d3b64372a96f26bc47667497/include"/>
+					<Add directory="/opt/homebrew/Cellar/zlib/1.2.12/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 server_sample"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server_sample/fast">
+				<Option output="/Users/dylan/item/carpo/build/macosx/arm64/release/server_sample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dylan/item/carpo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/dylan/item/carpo/src"/>
+					<Add directory="/Users/dylan/.xmake/packages/a/asio/1.21.0/8cf1d852d3b64372a96f26bc47667497/include"/>
+					<Add directory="/opt/homebrew/Cellar/zlib/1.2.12/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 server_sample/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/dylan/item/carpo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/dylan/item/carpo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/dylan/item/carpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/dylan/item/carpo/sample/basic_run.cpp">
+			<Option target="basic_run"/>
+		</Unit>
+		<Unit filename="/Users/dylan/item/carpo/sample/server_sample.cpp">
+			<Option target="server_sample"/>
+		</Unit>
+		<Unit filename="/Users/dylan/item/carpo/src/loop/base_component.cpp">
+			<Option target="carpo"/>
+		</Unit>
+		<Unit filename="/Users/dylan/item/carpo/src/loop/base_component.h">
+			<Option target="carpo"/>
+		</Unit>
+		<Unit filename="/Users/dylan/item/carpo/src/loop/carpo.cpp">
+			<Option target="carpo"/>
+		</Unit>
+		<Unit filename="/Users/dylan/item/carpo/src/loop/carpo.h">
+			<Option target="carpo"/>
+		</Unit>
+		<Unit filename="/Users/dylan/item/carpo/src/loop/client.cpp">
+			<Option target="carpo"/>
+		</Unit>
+		<Unit filename="/Users/dylan/item/carpo/src/loop/client.h">
+			<Option target="carpo"/>
+		</Unit>
+		<Unit filename="/Users/dylan/item/carpo/src/loop/loop.cpp">
+			<Option target="carpo"/>
+		</Unit>
+		<Unit filename="/Users/dylan/item/carpo/src/loop/loop.h">
+			<Option target="carpo"/>
+		</Unit>
+		<Unit filename="/Users/dylan/item/carpo/src/loop/num_router.cpp">
+			<Option target="carpo"/>
+		</Unit>
+		<Unit filename="/Users/dylan/item/carpo/src/loop/num_router.h">
+			<Option target="carpo"/>
+		</Unit>
+		<Unit filename="/Users/dylan/item/carpo/src/loop/router_handle.cpp">
+			<Option target="carpo"/>
+		</Unit>
+		<Unit filename="/Users/dylan/item/carpo/src/loop/router_handle.h">
+			<Option target="carpo"/>
+		</Unit>
+		<Unit filename="/Users/dylan/item/carpo/src/loop/run_module.cpp">
+			<Option target="carpo"/>
+		</Unit>
+		<Unit filename="/Users/dylan/item/carpo/src/loop/run_module.h">
+			<Option target="carpo"/>
+		</Unit>
+		<Unit filename="/Users/dylan/item/carpo/src/loop/server.cpp">
+			<Option target="carpo"/>
+		</Unit>
+		<Unit filename="/Users/dylan/item/carpo/src/loop/server.h">
+			<Option target="carpo"/>
+		</Unit>
+		<Unit filename="/Users/dylan/item/carpo/src/loop/session.cpp">
+			<Option target="carpo"/>
+		</Unit>
+		<Unit filename="/Users/dylan/item/carpo/src/loop/session.h">
+			<Option target="carpo"/>
+		</Unit>
+		<Unit filename="/Users/dylan/item/carpo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

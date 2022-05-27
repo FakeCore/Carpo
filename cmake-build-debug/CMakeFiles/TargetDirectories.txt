@@ -1,0 +1,5 @@
+/Users/dylan/item/carpo/cmake-build-debug/CMakeFiles/basic_run.dir
+/Users/dylan/item/carpo/cmake-build-debug/CMakeFiles/carpo.dir
+/Users/dylan/item/carpo/cmake-build-debug/CMakeFiles/server_sample.dir
+/Users/dylan/item/carpo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/dylan/item/carpo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
